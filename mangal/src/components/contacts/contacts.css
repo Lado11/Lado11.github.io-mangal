@@ -1,0 +1,443 @@
+.contacts-section {
+    border-radius: 10px;
+}
+
+.contacts-form-section {
+    width: 100%;
+    max-width: 535px;
+}
+
+.form-title {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    color: white;
+}
+
+.form-line {
+    width: 100%;
+    max-width: 465px;
+    background: white;
+    height: 3px;
+    margin: 15px 0;
+    border: none;
+}
+
+.form-text {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    color: white;
+
+}
+
+.form-text-section {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: white;
+    margin: 15px 0 30px 0;
+
+}
+
+.form-input {
+    width: 260px;
+    height: 55px;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #8A847E;
+    padding-left: 17px;
+    border: none;
+}
+
+.form-input:focus,
+.form-area:focus {
+    outline: none;
+}
+
+.form-area {
+    width: 535px;
+    height: 144px;
+    border-radius: 5px;
+    border: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #8A847E;
+    padding-left: 17px;
+    padding-top: 17px;
+    resize: none;
+}
+
+.form-link {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+.form-button {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #CC7722;
+    background-color: white;
+    padding: 19px 75px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 25px;
+}
+
+.form-input-section {
+    margin: 15px 0;
+}
+
+.left {
+    margin-left: 15px;
+}
+
+.chek-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-checkbox {
+    background-color: white;
+}
+
+.select-option {
+    width: 260px;
+    height: 55px;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #8A847E;
+    border: none !important;
+}
+
+.ant-select-item-option-selected {
+    color: #FF8000 !important;
+}
+
+.ant-select-item-option-selected:hover {
+    color: #FF8000 !important;
+}
+
+.ant-select-single .ant-select-selector {
+    color: #8A847E !important;
+    font-size: 16px !important;
+    border: none !important;
+}
+
+.select-option:focus {
+    border: none !important;
+}
+
+.contacts-main-block {
+    display: flex;
+    flex-direction: row;
+
+    padding: 0 200px;
+
+}
+
+.contacts-block-back {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: #CC7722;
+    width: 100%;
+    padding: 70px 75px;
+
+}
+
+.information-main-block {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    padding: 35px 35px 61px 35px;
+}
+
+.information-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-block {
+    margin-bottom: 25px;
+}
+
+.information-logo {
+    margin-right: 10px;
+}
+
+.information-title {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.inmormation-section-text {
+    color: black;
+    margin-left: 55px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    max-width: 446px;
+
+
+}
+
+.ul-li-sec {
+    display: flex;
+    flex-direction: row;
+    margin-left: 55px;
+}
+
+.ul-li-info {
+    margin-left: 50px;
+}
+
+.ul-li-info-2 {
+    margin-left: 30px;
+}
+
+@media (max-width: 1790px) {
+    .contacts-main-block {
+        padding: 0 130px;
+    }
+
+    .contacts-block-back {
+
+        padding: 50px 55px;
+
+    }
+}
+
+@media (max-width: 1440px) {
+    .contacts-main-block {
+        padding: 0 60px;
+    }
+
+    .contacts-block-back {
+
+        padding: 50px 55px;
+
+    }
+
+    .contacts-form-section {
+        max-width: 430px;
+    }
+
+    .form-line {
+        width: 100%;
+        max-width: 410px;
+    }
+
+    .left {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .form-area {
+        width: 300px;
+        height: 74px;
+
+    }
+
+    .form-input,
+    .select-option {
+        width: 300px;
+    }
+
+    .information-main-block {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 5px;
+        padding: 35px 20px 61px 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contacts-main-block {
+        padding: 0 30px;
+    }
+
+    .contacts-block-back {
+
+        padding: 30px 35px;
+
+    }
+
+    .ul-li-sec {
+        font-size: 13px;
+    }
+
+    .inmormation-section-text {
+        font-size: 13px;
+    }
+
+    .contacts-form-section {
+        max-width: 330px;
+    }
+
+    .form-line {
+        width: 100%;
+        max-width: 310px;
+        margin: 5px 0;
+    }
+
+    .left {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .form-area {
+        width: 230px;
+        height: 54px;
+        font-size: 13px;
+
+    }
+
+    .ant-select-selection-item {
+        font-size: 13px !important;
+    }
+
+    .form-input,
+    .select-option {
+        width: 230px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .information-main-block {
+
+        padding: 20px 10px;
+    }
+
+    .inmormation-section-text {
+        max-width: 300px;
+    }
+
+    .form-title {
+        font-size: 20px;
+
+    }
+
+    .form-text {
+        font-size: 16px;
+    }
+
+    .form-text-section {
+        font-size: 13px;
+        margin: 10px 0 20px 0;
+    }
+
+    .form-link {
+        font-size: 14px;
+        width: 190px;
+    }
+
+    .contacts-section {
+        margin-right: 10px;
+    }
+
+    .form-button {
+        font-size: 13px;
+        padding: 14px 67px;
+        margin-top: 15px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .contacts-block-back {
+        flex-direction: column;
+    }
+
+    .information-main-block {
+        margin-top: 20px;
+    }
+
+    .form-area {
+        width: 300px;
+        height: 54px;
+        font-size: 13px;
+
+    }
+
+    .form-input,
+    .select-option {
+        width: 300px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .form-button {
+        font-size: 15px;
+        padding: 14px 110px;
+        margin-top: 15px;
+    }
+
+    .form-link {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .contacts-block-back {
+        padding: 25px 25px;
+    }
+
+    .ul-li-sec {
+
+        margin-left: 30px;
+    }
+
+    .inmormation-section-text {
+        margin-left: 35px;
+    }
+
+    .form-area {
+        width: 250px;
+        height: 54px;
+        font-size: 13px;
+
+    }
+
+    .form-input,
+    .select-option {
+        width: 250px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .form-button {
+        font-size: 15px;
+        padding: 14px 85px;
+        margin-top: 15px;
+    }
+
+    .form-link {
+        width: 100%;
+    }
+}

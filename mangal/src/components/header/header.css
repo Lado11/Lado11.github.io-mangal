@@ -1,0 +1,230 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.project-mobile {
+    display: none;
+}
+
+.header-inner {
+    display: flex;
+    width: 100%;
+    padding: 16px 200px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    top: 0%;
+}
+
+
+
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-logo-section {
+    margin-right: 88px;
+}
+
+.header-phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 36px;
+}
+
+.header-phone-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.phone-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: black;
+}
+
+.phone-logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 11px;
+}
+
+.first {
+    margin: 0 38px 0 150px;
+}
+
+.menu-list>li:not(:last-child) {
+    margin-right: 45px;
+}
+
+.menu-item {
+    font-family: Montserrat sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: black;
+}
+
+.about-text {
+    width: 45px;
+}
+
+
+:where(.css-dev-only-do-not-override-1k979oh).ant-badge .ant-badge-count {
+    transform: translate(-200%, 10%) !important;
+    background-color: #B01F13 !important;
+}
+
+
+
+.header-badge-section {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.header-nav-mobile {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-list-mobil {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item:hover {
+    color: #CC7722;
+}
+
+.menu-item:nth-child(n) {
+    margin-top: 10px;
+}
+
+.header-phone-mobile,
+.badge-header {
+    margin-top: 10px;
+}
+
+.menu-href {
+    color: black;
+    cursor: pointer;
+}
+
+.menu-item:active {
+    color: #CC7722;
+    cursor: pointer;
+}
+
+.menu-href:hover {
+    color: #CC7722;
+}
+
+@media (max-width: 1790px) {
+    .header-inner {
+        padding: 16px 130px;
+
+    }
+
+    .header-logo-section {
+        margin-right: 40px;
+    }
+
+    .menu-list>li:not(:last-child) {
+        margin-right: 40px;
+    }
+
+    .first {
+        margin: 0 40px;
+    }
+
+    .phone-text {
+
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 1440px) {
+    .header-inner {
+        padding: 16px 60px;
+
+    }
+
+    .header-logo-section {
+        margin-right: 30px;
+    }
+
+    .menu-list>li:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .first {
+        margin: 0 30px;
+    }
+
+    .phone-text {
+
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .header-inner {
+        padding: 16px 60px;
+
+    }
+
+    .header-logo-section {
+        margin-right: 20px;
+    }
+
+    .menu-list>li:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .first {
+        margin: 0 20px;
+    }
+
+    .phone-text {
+
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .project-header-section {
+        display: none;
+    }
+
+    .project-mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        padding: 16px 30px;
+        align-items: center;
+        position: fixed;
+        z-index: 999;
+        top: 0%;
+    }
+}

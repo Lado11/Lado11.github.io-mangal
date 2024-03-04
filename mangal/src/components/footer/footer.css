@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #FF8000;
+    padding: 69px 200px;
+    color: white;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item-title {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+
+}
+
+.footer-item-text {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.footer-item-text-part2 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.footer-item-line {
+    background: white;
+    height: 2px;
+    margin-top: 5px;
+    width: auto;
+}
+
+.middle {
+    margin: 6px 0;
+}
+
+.footer-item-text_info {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-decoration: underline;
+
+}
+
+.footer-item-text-hour {
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footer-text-bold {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+}
+
+.media-midle {
+    margin: 7px 0;
+}
+
+.footer-media {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-decoration: underline;
+
+}
+
+.footer-ul-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-ul-item {
+    margin: 7.5px 0;
+}
+
+.left-section {
+    margin-left: 55px;
+}
+
+.last-info-item {
+    margin-top: 10px;
+}
+
+.footer-part-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.footer-part-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.last-item-hour {
+    margin-top: 10px;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+
+.footer-bottom-text-three,
+.footer-bottom-text-one {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.footer-bottom-text-two {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    max-width: 532px;
+}
+
+
+.foter-bottom-href {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #FF8000;
+}
+
+.footer-item-info {
+    display: flex;
+
+}
+
+.footer-item-info-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-media {
+    margin-right: 14px;
+}
+
+.logo-media-fb {
+    margin-right: 20px;
+}
+
+.logo {
+    margin-right: 12px;
+}
+
+.footer-hour {
+    margin-right: 15px;
+}
+
+.menu-href-footer {
+    color: white;
+}
+
+@media (max-width: 1790px) {
+    .footer {
+        padding: 59px 130px;
+    }
+
+    .footer-bottom {
+        padding: 20px 130px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .footer {
+        padding: 59px 60px;
+    }
+
+    .footer-bottom {
+        padding: 20px 60px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        padding: 49px 30px;
+    }
+
+    .footer-bottom {
+        padding: 20px 30px;
+    }
+
+    .footer-item-title {
+        font-size: 16px;
+
+        margin-bottom: 0;
+
+    }
+
+    .footer {
+        margin-top: 60px;
+    }
+
+    .footer-part-one {
+        margin-bottom: 40px;
+    }
+
+    .footer-item-text {
+        font-size: 13px;
+
+    }
+
+    .footer-item-text-part2 {
+        font-size: 13px;
+
+    }
+
+    .footer-bottom-text-three,
+    .footer-bottom-text-one {
+        font-size: 13px;
+
+    }
+
+    .footer-bottom-text-two {
+        font-size: 13px;
+
+        max-width: 532px;
+    }
+
+
+    .foter-bottom-href {
+        font-size: 13px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-part-one {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .footer-part-two {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+    }
+
+    .footer-part-one-middle {
+        margin: 20px 0;
+    }
+
+    .footer-part-last {
+        margin-top: 20px;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-bottom-text-two {
+        margin: 15px 0;
+    }
+
+    .footer-item-info,
+    .footer-item-info-part {
+        margin-top: 10px;
+    }
+
+}

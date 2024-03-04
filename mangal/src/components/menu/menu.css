@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-section {
+    padding: 0 200px;
+    margin-bottom: 95px;
+
+}
+
+.menu-item-img-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: auto;
+
+}
+
+.menu-item-img:first-child {
+    margin: 0px;
+}
+
+.menu-item-img:last-child {
+    margin: 0px;
+}
+
+.menu-title-section {
+    width: 100%;
+    padding: 13px 20px;
+    border-radius: 9px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    background: linear-gradient(to right, #CC7722, #FDF4E3);
+}
+
+.menu-title {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+}
+
+.menu-item-img {
+    position: relative;
+    width: 360px;
+    margin: 0 13px;
+
+}
+
+
+.menu-block:hover {
+    .menu-item-img-hover {
+        display: block;
+        position: absolute;
+        z-index: 999;
+        width: 360px;
+
+    }
+
+
+
+
+}
+
+.hover-image {
+    position: absolute;
+    left: 50%;
+    right: -50%;
+    transform: translate(-50%, 200%);
+}
+
+.hover-image-block {
+    width: 360px;
+}
+
+.menu-item-desc {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 16px 20px 16px;
+    background-color: white;
+}
+
+.menu-item-desc-hover {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 16px 20px 16px;
+    background-color: #CC7722;
+}
+
+.menu-item-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 16px 30px 16px;
+    background-color: white;
+}
+
+.menu-item-option-hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 16px 30px 16px;
+    background-color: #CC7722;
+    color: white;
+
+}
+
+.menu-text {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #1E1E1E;
+    margin-bottom: 11px;
+}
+
+.menu-desc {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #655D5D;
+}
+
+.menu-price {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+
+    color: black;
+    margin-right: 10px;
+}
+
+.menu-mass {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #B7B7B7;
+
+}
+
+.menu-text-hover {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #FDF4E3;
+
+    margin-bottom: 11px;
+}
+
+.menu-desc-hover {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FDF4E3;
+}
+
+.menu-price-hover {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+
+    color: #FDF4E3;
+    margin-right: 10px;
+}
+
+.menu-mass-hover {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #FDF4E3;
+
+}
+
+.menu-item-option-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-option-line {
+    background: #CC7722;
+    height: 1px;
+    border: none;
+}
+
+.menu-item-opt-img2 {
+    margin-left: 10px;
+}
+
+.menu-item-img-hover {
+    display: none;
+
+}
+
+@media (max-width: 1790px) {
+    .menu-section {
+        padding: 0 140px;
+
+    }
+}
+
+@media (max-width: 1440px) {
+    .menu-section {
+        padding: 0;
+    }
+
+    .menu-item-block {
+        padding: 0 60px
+    }
+
+    .menu-block {
+        margin-right: 15px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .menu-section {
+        padding: 0;
+    }
+
+    .menu-item-block {
+        padding: 0 30px
+    }
+}
+
+.menu-block {
+    margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+    .menu-section {
+        padding: 0 30px;
+    }
+
+    .menu-block {
+        margin-right: 15px;
+    }
+
+    .menu-section {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .menu-title-section {
+        margin-top: 30px;
+    }
+
+    .menu-item-block {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .menu-item-option {
+        padding: 24px 60px 30px 16px;
+    }
+}
